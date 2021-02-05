@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital@1&display=swap');
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url('https://images.unsplash.com/photo-1463320726281-696a485928c7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80')
+    no-repeat center center/cover;
+}
+
+.carousel-image-2 {
+  background: url('https://images.unsplash.com/photo-1503676593575-d732ab11be71?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1356&q=80')
+    no-repeat center center/cover;
+}
+
+.carousel-image-3 {
+  background: url('https://images.unsplash.com/photo-1462903876006-77f6beb241b4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')
+    no-repeat center center/cover;
+}
+
+.p-4 p {
+  font-family: 'Andika New Basic', sans-serif;
+  line-height: 1.6;
+}
+.d-flex img {
+  cursor: pointer;
+}
+
+footer p {
+  font-family: 'Andika New Basic', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .d-flex {
+    flex-wrap: wrap;
+  }
+}
