@@ -46,10 +46,6 @@ footer p {
 }
 
 @media (max-width: 584px) {
-  .read-link {
-    /* margin-bottom: -1px; */
-  }
-
   .review-link {
     margin-top: 5px;
   }
