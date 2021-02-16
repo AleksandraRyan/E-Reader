@@ -31,8 +31,26 @@ footer p {
   font-family: 'Andika New Basic', sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .d-flex {
     flex-wrap: wrap;
+  }
+
+  .read-link {
+    margin-bottom: 5px;
+  }
+
+  .review-link {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 584px) {
+  .read-link {
+    /* margin-bottom: -1px; */
+  }
+
+  .review-link {
+    margin-top: 5px;
   }
 }
